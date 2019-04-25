@@ -6,6 +6,10 @@ body {
     margin:0;
     background: black
 }
+img {
+    max-width: 100%;
+    height:auto;
+}
 .navBar {
     background:#707070;
     height:3.1em;
@@ -111,14 +115,27 @@ body {
     margin-left:-4.2em
 }
 .textPic {
-    background: lightslategray;
-    height: 100px;
+    background: white;
+    height: 10em;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: stretch;
+    
 }
-.footer{
-    background: lightgray;
-    height: 100px;
+.text {
+    width:5em;
+    background: #E9E05F;
+    height: 5em;
+}
+.pic {
+    width: 11em;
+    height: 7em;
+
 }
 .footer {
     background: #3A3A56;
-    height:50px;
+    height:5em;
 }
