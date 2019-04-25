@@ -180,6 +180,8 @@ function output(item,index,array){
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
+let forTheLoveOfGeorge = []
+forTheLoveOfGeorge= notGeorge.map(x=>x = 'George')
 
 //////////////////PROBLEM 19////////////////////
 
