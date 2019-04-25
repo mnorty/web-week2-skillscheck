@@ -159,7 +159,7 @@ filtered = myNumbers.filter(x => x > 100)
 
 // Code Here
 let total = []
-total = myNumbers.reduce((accumulator,currentValue,currentIndex,array) => {
+total = myNumbers.reduce((accumulator,currentValue) => {
 	return accumulator + currentValue
 })
 
@@ -204,3 +204,6 @@ enemies = people.filter(person => person.friend === false)
 // Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce()
 
 // Code Here
+let totallyAwesome = []
+totallyAwesome = people.reduce((accumulator, currentValue) => accumulator + currentValue.awesomeLevel
+,0)
