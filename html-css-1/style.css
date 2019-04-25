@@ -126,9 +126,13 @@ img {
     
 }
 .text {
-    width:5em;
-    background: #E9E05F;
-    height: 5em;
+    width:29em;
+    background: white;
+    height: 10em;
+    font-size:.55em;
+    font-family: 'Muli', sans-serif;
+    text-transform: capitalize;
+    font-weight: 550;
 }
 .pic {
     width: 11em;
