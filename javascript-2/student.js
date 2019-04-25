@@ -20,14 +20,14 @@ const name = 'Mike'
 //Create a variable called phrase that is initially set as an empty string
 
 // Code Here
-const phrase = ''
+let phrase = ''
 //////////////////STEP 5////////////////////
 //Create an if statement that checkes to see if the lovesCode variable is equal to true, if it is, set the phrase variable created above to 'I love code', it it's not true set the phrase variable to 'I do not love to code'
 
 // Code Here
 
-if( lovesCode === true)
-   phrase = 'I love code'
+if( lovesCode === true){
+   phrase = 'I love code'}
 
 else if ( lovesCode === false){
     phrase = 'I do not love code'
