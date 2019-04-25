@@ -91,19 +91,42 @@ let middleNums = numbers.slice(1,4)
 // Create an object called 'me' that has these keys with the correct values: firstName, state, age, greeter. firstName will be your name as a string. state will be your current state or providence as a string. age will be your age as a number. greeter will be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the correct values
 
 //Code Here
+let me ={
+	firstName: 'Mike',
+	state: 'Utah',
+	age: 28,
+	greeter: function greeter(firstName,state,age){
+		return `Hello! My name is ${firstName} and I live in ${state}`
+	}
+}
 
 //////////////////PROBLEM 12////////////////////
 
 // Create a function called 'bigOrSmall' that takes in one parameter, arr. Create a new array inside of bigOrSmall called 'answers'. Loop over the passed in arr param. If the number is GREATER than 100, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function
 
 // Code here
-
+function bigOrSmall(arr){
+	let answers = []
+	for (i=0 ;i < arr.length;i++){
+		if(arr[i] > 100){
+			answers.push('big')
+		}
+		else if(arr[i] <= 100){
+		answers.push('small')
+		}
+	}
+	return answers
+}
 //////////////////PROBLEM 13////////////////////
 
 // Create a function called 'arrayReverser' that takes in one parameter, arr. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array in reverse and add each item to the new reversed array. Finally, return the new reversed array
 
 //Code Here
+function arrayReverser(arr){
+	for(i=arr.length;i>0;i--){
 
+	}
+}
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
 // Below is an array, myNumbers. We will be using .map, .filter, .reduce and .forEach to manipulate the array in some form
