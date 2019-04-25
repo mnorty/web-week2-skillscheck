@@ -21,6 +21,8 @@ body {
 }
 .logo {
     text-transform: uppercase;
+    font-size:1.6em;
+    font-family: 'Muli', sans-serif;
     
 }
 .navButtons {
@@ -42,11 +44,14 @@ body {
 	justify-content: center;
 	align-items: center;
     align-content: stretch;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-size:1.4em;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold
 }
 .triple {
     background: white;
-    height: 100px;
+    height: 15em;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -56,18 +61,21 @@ body {
 }
 .triple1 {
     background: #A4FFD7;
-    height: 50px;
-    width: 20em;
+    height: 10em;
+    width: 10em;
+    border-radius: 10%;
 }
 .triple2 {
     background: #A4FFD7;
-    height: 50px;
-    width: 20em;
+    height: 10em;
+    width: 10em;
+    border-radius: 10%;
 }
 .triple3 {
     background: #A4FFD7;
-    height: 50px;
-    width: 20em;
+    height: 10em;
+    width: 10em;
+    border-radius: 10%;
 }
 .double {
     background: grey;
