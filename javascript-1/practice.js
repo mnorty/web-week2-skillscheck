@@ -158,6 +158,10 @@ filtered = myNumbers.filter(x => x > 100)
 // Next up, reduce to get the total of the array. call the new array 'total'
 
 // Code Here
+let total = []
+total = myNumbers.reduce((accumulator,currentValue,currentIndex,array) => {
+	return accumulator + currentValue
+})
 
 //////////////////PROBLEM 17////////////////////
 
