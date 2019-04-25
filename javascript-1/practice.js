@@ -123,9 +123,11 @@ function bigOrSmall(arr){
 
 //Code Here
 function arrayReverser(arr){
-	for(i=arr.length;i>0;i--){
-
+	let reversed = []
+	for(i=arr.length-1;i>=0;i--){
+		reversed.push(arr[i])
 	}
+	return reversed
 }
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
@@ -138,6 +140,9 @@ const myNumbers = [3, 55, 788, 2, 1]
 // First, let's use .map to create a new array that doubles each number. Call the new array 'doubled'
 
 // Code Here
+let doubled = myNumbers.map(x => x*2);
+	return doubled
+
 
 //////////////////PROBLEM 15////////////////////
 
