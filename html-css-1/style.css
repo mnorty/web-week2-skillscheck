@@ -4,7 +4,8 @@ html {
 body {
     min-height: 100%;
     margin:0;
-    background: black
+    background: black;
+    width: 50%
 }
 img {
     max-width: 100%;
