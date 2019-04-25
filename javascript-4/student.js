@@ -5,7 +5,7 @@
 // Create a new array called 'faveColors' and set it your three favorite colors as strings.
 
 // CODE HERE
-const faveColors = ['Gray', 'Light blue', 'Tan']
+const faveColors = ['red', 'lightblue', 'tan']
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstname, superHeroName, homeTown, superPowers, superPowerXP, profileImage. 
 
@@ -57,7 +57,7 @@ function setColor(arr){
         }
     }
     background(arr[0],arr[1],arr[2])
-}
+    }
 //////////////////Step 5////////////////////
 //Create a function called 'setPowers' that takes in arr as a parameter. Loop over the arr param and run a function called createLi(), which will take each item of the array as an agument. The createLi function is a function we created to set the data on the screen. It outside the scope of this project
 
