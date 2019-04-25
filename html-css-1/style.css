@@ -3,19 +3,71 @@ html {
 }
 body {
     min-height: 100%;
+    margin:0;
+    background: black
 }
 .navBar {
     background:#707070;
-    height:100px;
+    height:3em;
+    margin-left:1em;
+    margin-right: 1em;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    color:white;
 }
-.
+.logo {
+    text-transform: uppercase;
+    
+}
+.navButtons {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    margin-right: 2em;
+}
 .title {
     background: #000000;
-    height:100px;
+    height:14.4em;
+    color: #E9E05F;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    text-transform: uppercase
 }
 .triple {
-    background: skyblue;
+    background: white;
     height: 100px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.triple1 {
+    background: #A4FFD7;
+    height: 50px;
+    width: 20em;
+}
+.triple2 {
+    background: #A4FFD7;
+    height: 50px;
+    width: 20em;
+}
+.triple3 {
+    background: #A4FFD7;
+    height: 50px;
+    width: 20em;
 }
 .double {
     background: grey;
@@ -28,18 +80,6 @@ body {
 .footer{
     background: lightgray;
     height: 100px;
-}
-.triple1 {
-    background: #A4FFD7;
-    height: 50px;
-}
-.triple2 {
-    background: #A4FFD7;
-    height: 50px;
-}
-.triple3 {
-    background: #A4FFD7;
-    height: 50px;
 }
 .double1 {
     background: #FFC36C;
