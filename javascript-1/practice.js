@@ -168,7 +168,12 @@ total = myNumbers.reduce((accumulator,currentValue,currentIndex,array) => {
 // Last, lets use .forEach to find the index of each item in the array. First, create an empty array called myNumbersIndex. Next, using forEach, push each items index from the myNumbers array to the myNumbersIndex array
 
 // Code Here
+let myNumbersIndex = []
+myNumbers.forEach(output);
 
+function output(item,index,array){
+  myNumbersIndex.push(index)
+}
 //////////////////PROBLEM 18////////////////////
 
 // Did you know that George Foreman has five sons named George? Let's go ahead and change everyone's name in the notGeorge array to George using .map. Call the new array 'forTheLoveOfGeorge'
