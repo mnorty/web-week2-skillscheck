@@ -90,8 +90,25 @@ body {
     border-radius: 10%;
 }
 .double {
-    background: grey;
-    height: 100px;
+    background: white;
+    height: 10em;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: stretch;
+}
+.double1 {
+    background: #FFC36C;
+    height: 100%;
+    width: 19.3em;
+}
+.double2 {
+    background: #FFC36C;
+    height: 100%;
+    width: 19.3em;
+    margin-left:-4.2em
 }
 .textPic {
     background: lightslategray;
@@ -100,14 +117,6 @@ body {
 .footer{
     background: lightgray;
     height: 100px;
-}
-.double1 {
-    background: #FFC36C;
-    height: 50px;
-}
-.double2 {
-    background: #FFC36C;
-    height: 50px;
 }
 .footer {
     background: #3A3A56;
