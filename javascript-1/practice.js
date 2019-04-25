@@ -150,6 +150,8 @@ doubled = myNumbers.map(x => x * 2);
 // Now lets use .filter to only get the nubmer(s) greater than 100. Call the new array 'filtered'
 
 // Code Here
+let filtered = []
+filtered = myNumbers.filter(x => x > 100)
 
 //////////////////PROBLEM 16////////////////////
 
