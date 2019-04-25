@@ -59,6 +59,9 @@ function oddChecker(num){
 // Create a function called 'iLove' that takes in two parameters, name which will be a string  and love which will be a string of something you love. Have the function take the two parameters and retrun a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Bryan loves skateboarding"
 
 //Code Here
+function iLove(nameParam,loveParam){
+	return `${nameParam} loves ${loveParam}`
+}
 
 //////////////////PROBLEM 8////////////////////
 
@@ -66,12 +69,14 @@ function oddChecker(num){
 const faveColors = ['red', 'green', 'black']
 
 //Code Here
+let colorCopy = faveColors.slice()
 
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push
 
 //Code Here
+colorCopy.push('blue')
 
 //////////////////PROBLEM 10////////////////////
 
@@ -79,6 +84,7 @@ const faveColors = ['red', 'green', 'black']
 const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
+let middleNums = numbers.slice(1,4)
 
 //////////////////PROBLEM 11////////////////////
 
